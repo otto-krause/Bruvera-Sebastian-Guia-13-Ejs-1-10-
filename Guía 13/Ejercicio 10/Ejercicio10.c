@@ -14,7 +14,8 @@ int main()
 	{
 		vec[0]+=vec[I];
 	}
-	for(int I=3; I<=12; I++)
+        vec[1]=vec[3];
+	for(int I=4; I<=12; I++)
 	{
 		vec[1]= (double) vec[1]*vec[I];
 	}
